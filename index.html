@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="https://fontawesome.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/login.js"></script>
+	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+	<title>Facebook design</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<h2 class="name-title">facebook</h2>
+		<form id="form_id" method="post" name="myform">
+		<div class="information">
+			<div class="email-phone">
+				<label for="email">Email or phone</label>
+				<input type="text" name="username" id="username"/>
+
+			</div>
+
+			<div class="password">
+				<label for="pwd">Password</label>
+				
+				<input type="text" name="password" id="password"/>
+				<!--<input&nbsp;required type="password" class="add-btn form-control" id="pass" name="pass1" placeholder="Nhập mật khẩu...">!-->
+
+				<a class="note" href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Forgot account?</a>
+			</div>
+			<div class="login">
+				<input type="button" value="Login" id="submit" class="btn" onclick="validate()"/>
+			</div>
+		</div>
+		
+	</div>
+</nav>
+
+<div class="detail">
+	<div class="describe">
+		<h1 class="connect">Connect with friends and the world around you on Facebook</h1>
+		<div class="des">
+			<i class="fa fa-newspaper-o fa-3x"></i>
+			<div class="describe-1"><b>See photos and updates</b> from friends in News Feed.</div>
+		</div>
+
+		<div class="des">
+			<i class="fa fa-users fa-3x"></i>
+			<div class="describe-2"><b>Share what's new</b> in your life on your Timeline</div>
+		</div>
+
+		<div class="des">
+			<i class="fa fa-line-chart fa-3x"></i>
+			<div class="describe-3"><b>Find more</b> of what you're looking for with Facebook Search</div>
+		</div>
+
+	</div>
+		
+
+	<div class="right-describe">
+		<div class="Sign-up-infor">
+			<h2 class="sign-up">Sign Up</h2>
+			<p>It's quick and easy.</p>
+		</div>
+		
+		<div class="inputname">			
+			<input type="text" name="first name" placeholder="First name" id="firstname">
+			
+			<input type="text" name="last name" placeholder="Last name" id="lastname">
+			
+		</div>
+		<div class="infor-4">
+			<input type="text" name="Mobile number or mail" placeholder="Mobile number or email" id="mobileormail">
+			<input type="text" name="New password" placeholder="New password" id="newpass">
+		</div>
+		
+		<div class="birthday">Birthday</div>
+		<div class="select">
+			<select class="sl1" id="sl1">
+				
+				<option value="0">Month</option>
+				<option value="1">Jan</option>
+				<option value="2">Feb</option>
+				<option value="3">Mar</option>
+				<option value="4">Apr</option>
+				<option value="5">May</option>
+				<option value="6" selected="0">Jun</option>
+				<option value="7">July</option>
+				<option value="8">Aug</option>
+				<option value="9">Sep</option>
+				<option value="10">Oct</option>
+				<option value="11">Nov</option>
+				<option value="12">Dec</option>
+			</select>
+
+			<select class="sl1 day" id="sl2">
+				<option value="0">Day</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29" selected="1">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+
+			<select class="sl1" id="sl3">
+				<option value="1">year</option>
+				<option value="0" selected="1">1995</option>
+				<option value="96">1996</option>
+				<option value="2">1997</option>
+				<option value="3">1998</option>
+				<option value="4">1999</option>
+				<option value="5">2000</option>
+				<option value="6">2001</option>
+				<option value="7">2002</option>
+				<option value="8">2003</option>
+				<option value="9">2004</option>
+				<option value="9">2005</option>
+				<option value="9">2006</option>
+				<option value="9">2007</option>
+				<option value="9">2008</option>
+				<option value="9">2009</option>
+				<option value="9">2010</option>
+				<option value="9">2011</option>
+				<option value="9">2012</option>
+				<option value="9">2013</option>
+				<option value="9">2014</option>
+				<option value="9">2015</option>
+				<option value="9">2016</option>
+				<option value="9">2017</option>
+				<option value="9">2018</option>
+			</select>
+		</div>
+		<p>Gender</p>	
+			<input class="gender" type="radio" name="gender" value="male" checked> Female
+			<input class="gender" type="radio" name="gender" value="female"> Male
+			<input class="gender" type="radio" name="gender" value="other"> Custom
+		<div class="footnot">By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update">Terms</a>, <a href="https://www.facebook.com/about/privacy/update">Data Policy</a> and <a href="https://www.facebook.com/policies/cookies/">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.</div>
+		<button type="submit"class="btn-signup" onclick ="readValue()">Sign Up</button>
+		<h5 class="create"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a Page</a> for a celebrity, band or business.</h5>	
+		</div>
+		
+	</div>
+
+	
+</div>
+<footer>
+
+<div id="google_translate_element">
+	
+	<ul class="tool language">
+		<li>
+			<a href="https://www.facebook.com/">English (US)</a></li>
+		<li>
+			<a href="https://ja-jp.facebook.com/">日本語</a></li>
+		<li>
+			<a href="https://pt-br.facebook.com/">Português (Brasil)</a></li>
+		<li>
+			<a href="https://zh-cn.facebook.com/">中文(简体)</a></li>
+    	<li>
+    		<a href="https://vi-vn.facebook.com/">Tiếng Việt</a></li>
+    	<li>
+    		<a href="https://es-la.facebook.com/">Español</a></li>
+		<li>
+			<a href="https://id-id.facebook.com/">Bahasa Indonesia</a></li>        
+		<li>
+			<a href="https://ko-kr.facebook.com/">한국어</a></li>
+		<li>
+			<a href="https://fr-fr.facebook.com/">Français (France)</a></li>
+		<li>
+			<a href="https://de-de.facebook.com/">Deutsch</a></li>
+		<li>
+			<a href="https://it-it.facebook.com/">Italiano</a></li>
+		<i class="fa fa-plus-square fa-2x" href=""></i>
+	</ul>
+</div>
+	<ul class="tool option">
+		<li>
+			<a href="https://www.facebook.com/r.php">Sign Up</a></li>
+		<li>
+			<a href="https://www.facebook.com/login/">Log In</a></li>
+		<li>
+			<a href="https://www.messenger.com/">Messenger</a></li>
+		<li>
+			<a href="https://www.facebook.com/lite/">Facebook Lite</a></li>
+		<li>
+			<a href="https://www.facebook.com/watch/">Watch</a></li>
+		<li>
+			<a href="https://www.facebook.com/directory/people/">People</a></li>
+		<li>
+			<a href="https://www.facebook.com/directory/pages/">Pages</a></li>
+		<li>
+			<a href="https://www.facebook.com/pages/category/">Page Categories</a></li>
+		<li>
+			<a href="https://www.facebook.com/places/">Places</a></li>
+		<li>
+			<a href="https://www.facebook.com/games/">Games</a></li>
+		<li>
+			<a href="https://www.facebook.com/directory/places/">Locations</a></li>
+		<li>
+			<a href="https://www.facebook.com/marketplace/">Marketplace</a></li>
+		<li>
+			<a href="https://pay.facebook.com/">Facebook Pay</a></li>
+		<li>
+			<a href="https://www.facebook.com/directory/groups/">Groups</a></li>
+	</ul>
+
+	<ul class="tool option-2">
+		<li>
+			<a href="https://www.oculus.com/">Oculus</a></li>
+		<li>
+			<a href="https://portal.facebook.com/">Portal</a></li>
+		<li>
+			<a href="https://www.instagram.com/">Instagram</a></li>
+		<li>
+			<a href="https://www.facebook.com/local/lists/245019872666104/">Local</a></li>
+		<li>
+			<a href="https://www.facebook.com/fundraisers/">Fundraisers</a></li>
+		<li>
+			<a href="https://www.facebook.com/biz/directory/">Services</a></li>
+		<li>
+			<a href="https://www.facebook.com/facebook">About</a></li>
+		<li>
+			<a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fads%2Fcreate%2F%3Fcampaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user">Create Ad</a></li>
+		<li>
+			<a href="https://developers.facebook.com/?ref=pf">Create Page</a></li>
+		<li>
+			<a href="https://developers.facebook.com/?ref=pf">Developers</a></li>
+		<li>
+			<a href="https://www.facebook.com/careers/?ref=pf">Careers</a></li>
+		<li>
+			<a href="https://www.facebook.com/privacy/explanation">Privacy</a></li>
+		<li>
+			<a href="https://www.facebook.com/policies/cookies/">Cookies</a></li>
+		<li>
+			<a href="https://www.facebook.com/help/568137493302217">Ad Choices</a></li>
+	</ul>
+	<ul class="tool option-3">
+		<li>
+			<a href="https://www.facebook.com/policies?ref=pf">TermsHelp</a></li>
+		<li>
+			<a href="https://www.facebook.com/help/?ref=pf">Settings</a></li>
+	</ul>
+	<h5>Facebook © 2020</h5>
+</footer>
+
+
+<script type= "text/javascript">
+
+
+function validate(){
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+if ( username == "username1" && password == "password1"){
+alert ("Login successfully");
+     }
+     else{
+       alert("Invalid username or password");
+       }
+     return false;
+// delete input value?
+     }
+    
+function readValue() {
+var u = document.getElementById("firstname").value;
+var p1 = document.getElementById("lastname").value;
+var p2 = document.getElementById("mobileormail").value;
+var p3 = document.getElementById("newpass").value;
+var p4 = document.getElementById("sl1").value;
+var p5 = document.getElementById("sl2").value;
+var p6 = document.getElementById("sl3").value;
+var p7 = document.getElementByClass("gender").value;
+  
+if(u== "") {
+alert("Vui lòng nhập tên!");
+return false;
+}
+if(p1 == "") {
+alert("Vui lòng nhập họ!");
+return false;
+}
+if(p2 == "") {
+alert("Vui lòng nhập số điện thoại hoặc email!");
+return false;
+}
+if(p3 == "") {
+alert("Vui lòng nhập mật khẩu!");
+return false;
+}
+if(p4 == "") {
+alert("Vui lòng chọn tháng sinh!");
+return false;
+}
+if(p5 == "") {
+alert("Vui lòng chọn ngày sinh!");
+return false;
+}
+if(p6 == "") {
+alert("Vui lòng chọn năm sinh!");
+return false;
+}
+if(p7 == "") {
+alert("Vui lòng chọn giới tính!");
+return false;
+}
+  
+alert("Xin hãy điền đúng thông tin!")
+  
+return true;
+}
+
+<script>
+       function googleTranslateElementInit() {
+           new google.translate.TranslateElement({
+               pageLanguage: 'en', 
+               includedLanguages: 'et', 
+               autoDisplay: false
+           }, 'google_translate_element');
+           var a = document.querySelector("#google_translate_element select");
+           a.selectedIndex=1;
+           a.dispatchEvent(new Event('change'));
+       }
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+	
+/*Function checkInput ( )
+
+{
+
+Kiểm tra user name:
+
+If ( document.getElementById("phone").value= =””)
+
+{
+
+Alert( “invalidEmail, Vui lòng nhập địa chỉ Email của bạn:”);
+
+document.getElementById("phone").focus( );
+
+return false;
+
+}
+
+Kiểm tra password
+
+If ( document.getElementById("password").value= =””)
+
+{
+
+Alert( “ Vui lòng nhập password của bạn vào:”);
+
+document.getElementById("password").focus( );
+
+return false;
+
+}
+
+Return true;
+
+}
+function login() {
+var phone = document.getElementById("phone").value;
+var pass = document.getElementById("pass").value;
+if(phone == "lab18" && pass == "lab18") {
+    alert("Logged In");
+    locate="new11.html"
+    return false;
+} else {
+    alert("wrong phone/pass");
+    return false;
+    }
+}
+*/
+
+
+
+
+</script>
+
+
+</body>
+</html>
